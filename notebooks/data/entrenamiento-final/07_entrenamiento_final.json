@@ -1,0 +1,42 @@
+{
+  "notebook": "Notebook 7",
+  "development_size": 9359,
+  "test_size": 1218,
+  "subtrain_size": 7659,
+  "validation_final_size": 1700,
+  "best_epoch": 3,
+  "selection_best_val_loss": 0.3275561052210191,
+  "selection_stop_reason": "early stopping",
+  "final_threshold": 0.3,
+  "hyperparameters": {
+    "learning_rate": 0.0003,
+    "batch_size": 32,
+    "max_epochs": 100,
+    "patience": 10
+  },
+  "test_metrics": {
+    "pr_auc_average_precision": 0.8275023482137892,
+    "roc_auc": 0.9463998078112138,
+    "precision": 0.5091649694501018,
+    "recall_sensitivity": 0.9363295880149812,
+    "specificity": 0.7465825446898002,
+    "f1": 0.6596306068601583,
+    "balanced_accuracy": 0.8414560663523907,
+    "confusion_matrix": [
+      [
+        710,
+        241
+      ],
+      [
+        17,
+        250
+      ]
+    ],
+    "false_positives": 241,
+    "false_negatives": 17,
+    "real_positive_count": 267,
+    "real_negative_count": 951,
+    "probability_min": 0.0010483769001439214,
+    "probability_max": 0.9854912757873535
+  }
+}
